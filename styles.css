@@ -1,0 +1,102 @@
+/* ==========================
+   Estilos Generales
+   ========================== */
+   body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Color de fondo suave */
+}
+
+/* ==========================
+   Navbar
+   ========================== */
+.navbar {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajusta el icono del carrito */
+.navbar .btn-outline-dark {
+    position: relative;
+    font-size: 1.2rem;
+}
+
+/* Badge del carrito */
+.navbar .badge {
+    font-size: 0.75rem;
+    padding: 4px 6px;
+}
+
+/* ==========================
+   Carrusel
+   ========================== */
+#carouselExample {
+    max-width: 100%;
+    margin: auto;
+}
+
+/* Ajusta la altura de las imágenes del carrusel */
+#carouselExample .carousel-item img {
+    max-height: 40vh; /* Reduce la altura del carrusel al 40% de la pantalla */
+    width: 100%;
+    object-fit: cover; /* Mantiene la proporción sin deformar */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* ==========================
+   Sección de Productos
+   ========================== */
+.productos-container {
+    margin-top: 50px;
+}
+
+/* Tarjetas de productos */
+.card {
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Efecto hover en tarjetas */
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Ajustar imágenes de productos */
+.card img {
+    width: 100%;
+    height: 200px; /* Fija una altura uniforme */
+    object-fit: cover; /* Corta la imagen sin deformarla */
+}
+
+/* Distribución de productos según tamaño de pantalla */
+@media (max-width: 991px) {  /* Tablets y pantallas medianas */
+    .col-md-4 {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+}
+
+@media (max-width: 767px) {  /* Móviles y pantallas pequeñas */
+    .col-sm-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+/* ==========================
+   Paginación
+   ========================== */
+.pagination {
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination .page-item .page-link {
+    color: #007bff;
+    border-radius: 5px;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+}
