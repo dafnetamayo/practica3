@@ -2,12 +2,6 @@
 
 Una API REST simplificada para un sistema de comercio electrónico construida con Node.js, Express y MongoDB. Esta API implementa autenticación JWT y autorización basada en roles (roles de administrador y cliente).
 
-## Características
-
-- Autenticación de usuarios con tokens JWT
-- Autorización basada en roles (admin/cliente)
-- Operaciones CRUD para usuarios, productos y pedidos
-- Documentación de la API con Swagger
 
 ## Requisitos
 
@@ -18,7 +12,7 @@ Una API REST simplificada para un sistema de comercio electrónico construida co
 npm install
 ```
 
-3. Crear un archivo `.env` en el directorio raíz con las siguientes variables:
+ Crear un archivo `.env` en el directorio raíz con las siguientes variables:
 
 ```
 PORT=3000
@@ -236,7 +230,7 @@ curl -X GET http://localhost:3000/api/orders/[ID-PEDIDO] \
 | Productos (`GET`, `POST`, `PUT`, `DELETE`)                 | ✓      |
 | Órdenes (`GET`, `POST`, `GET /:id`)                        | ✓      |
 
-
+EVIDENCIAS (CAPTURAS DE PANTALLA) -> evidenciasPractica3.zip
 ---------------------------------------------------------
 
 # CONCLUSIONES:
