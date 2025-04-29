@@ -224,14 +224,18 @@ curl -X GET http://localhost:3000/api/orders/[ID-PEDIDO] \
 
 # RÚBRICA:
 
-Autenticación JWT (/api/users/login)	✓
-Autorización por rol (admin/client)	✓
-Modelos: User, Product, Order	✓
-Documentación con Swagger (/api-docs)	✓
-Estructura modular de rutas y middleware	✓
-Usuarios (POST /, POST /login, GET, PUT, DELETE)	✓
-Productos (GET, POST, PUT, DELETE)	✓
-Órdenes (GET, POST, GET /:id)	✓
+
+| Requisito                                                  | Estado |
+|------------------------------------------------------------|:------:|
+| Autenticación JWT (`/api/users/login`)                     | ✓      |
+| Autorización por rol (admin/client)                        | ✓      |
+| Modelos: User, Product, Order                              | ✓      |
+| Documentación con Swagger (`/api-docs`)                    | ✓      |
+| Estructura modular de rutas y middleware                   | ✓      |
+| Usuarios (`POST /`, `POST /login`, `GET`, `PUT`, `DELETE`) | ✓      |
+| Productos (`GET`, `POST`, `PUT`, `DELETE`)                 | ✓      |
+| Órdenes (`GET`, `POST`, `GET /:id`)                        | ✓      |
+
 
 ---------------------------------------------------------
 
