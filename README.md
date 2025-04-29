@@ -1,4 +1,4 @@
-# Practica 3 Dafne Tamayo Leon
+# Práctica 3 Dafne Tamayo León
 
 Una API REST simplificada para un sistema de comercio electrónico construida con Node.js, Express y MongoDB. Esta API implementa autenticación JWT y autorización basada en roles (roles de administrador y cliente).
 
@@ -220,8 +220,23 @@ curl -X GET http://localhost:3000/api/orders/[ID-PEDIDO] \
 - total
 - fecha
 
+-------------------------------------------------------
 
-# CONCLUSIONES
+# RÚBRICA:
+
+Autenticación JWT (/api/users/login)	✓
+Autorización por rol (admin/client)	✓
+Modelos: User, Product, Order	✓
+Documentación con Swagger (/api-docs)	✓
+Estructura modular de rutas y middleware	✓
+Usuarios (POST /, POST /login, GET, PUT, DELETE)	✓
+Productos (GET, POST, PUT, DELETE)	✓
+Órdenes (GET, POST, GET /:id)	✓
+
+---------------------------------------------------------
+
+# CONCLUSIONES:
+
 En esta práctica aprendí a crear una API para un sistema de comercio electrónico usando Node.js, Express y MongoDB. Usé Docker para levantar la base de datos, lo cual me ayudó a no complicarme instalando cosas directamente en mi computadora. Implementé registros y logins con JWT, además de roles de administrador y cliente para controlar quién puede hacer qué. También documenté todo con Swagger, lo que hizo mucho más fácil entender cómo funciona la API.
 
 Siento que esta práctica me ayudó mucho a entender cómo se conectan varias tecnologías en un proyecto real. Aprendí a proteger rutas, guardar datos de manera segura y a trabajar con contenedores. Me sirvió para reforzar todo lo que implica hacer un backend moderno, seguro y bien organizado, y también a ver la importancia de documentar lo que uno construye para que otros puedan usarlo sin problemas.
